@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Foodies App
 
-## Getting Started
+A simple Next.js 15 project focused on building a dynamic food exploration application using the App Router. This project was developed as part of the Udemy course "Next.js 15 & React - The Complete Guide".
 
-First, run the development server:
+## Main Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **File-based Routing and React Server Components**: Implemented routing using the Next.js file system, understanding the difference between server and client components.
+  
+- **Dynamic Routing**: Utilized dynamic routes and route parameters to handle meal details pages dynamically.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Layouts and Pages**: Managed application structure with layouts, including both global and nested layouts for different sections of the site.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Custom Components**: Integrated custom components across the app, both within layouts and pages, to promote reusability.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Styling**: Employed CSS Modules for component-specific styling, ensuring clean and maintainable CSS.
 
-## Learn More
+- **Image Optimization**: Used Next.js's Image component to optimize image loading and performance.
 
-To learn more about Next.js, take a look at the following resources:
+- **Data Fetching and Database Interaction**: Set up SQLite for local data storage, fetched data using Next.js capabilities for full-stack development, and managed data operations on the server.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Loading and Error States**: Enhanced user experience by implementing loading states with Suspense and managing errors and 'not found' states effectively.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Form Handling**: Developed a form for sharing meals using server actions for handling submissions, including image uploads, input validation, and protection against XSS attacks.
 
-## Deploy on Vercel
+- **Server Actions**: Managed form submissions on the server side, ensuring better performance and security, with actions stored in separate files for better organization.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Caching and Revalidation**: Learned about Next.js caching mechanisms, how to trigger cache revalidations, and considerations for storing files in production environments.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **SEO**: Added both static and dynamic metadata to improve search engine visibility.
+
+## Technologies Used
+- Next.js 15
+- React
+- SQLite
+- CSS Modules
